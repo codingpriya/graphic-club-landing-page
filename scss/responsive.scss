@@ -1,0 +1,46 @@
+@media (min-width: 1200px){
+    .container {
+        max-width: 1200px;
+    }
+}
+
+@media only screen and (max-width: 991px){
+    .navbar .navbar-nav li.pl-4, .navbar .navbar-nav li.px-4{
+        padding: 0 !important;
+    }
+
+    .navbar-brand{
+        margin-left: 0 !important;
+    }
+
+    .w-55{
+        width: 75% !important;
+    }
+
+    .social li {
+        height: 42px !important;
+        line-height: 46px !important;
+    }
+}
+
+@media only screen and (max-width: 991px){
+    .w-55{
+        width: 100% !important;
+    }
+
+    .bottom-links{
+        flex-wrap: wrap;
+    }
+
+    .social li {
+        height: 48px !important;
+        line-height: 52px !important;
+    }
+}
+
+@media only screen and (max-width: 375px){
+    .social li {
+        height: 44px !important;
+        line-height: 46px !important;
+    }
+}
